@@ -4,10 +4,10 @@ body {
 }
 
  div {
-  /* outline: 1px solid yellow; */
+   /* outline: 1px solid yellow; */
  }
 
-/* ---- */
+/* --------LOGO START------- */
 
 .logo {
   width:195px;
@@ -15,10 +15,7 @@ body {
   color: white;
   font-weight: bold;
   font-size: 2.5rem;
-
 }
-
-/* ---- */
 
 .slogan {
     width:380px;
@@ -29,8 +26,6 @@ body {
     margin-top:18px;
 }
 
-/* --- */
-
   .logoContainer {
     max-width: 920px;
     margin-top: 40px;
@@ -39,7 +34,9 @@ body {
     overflow: hidden;
 }
 
-/* --- */
+/* -----------LOGO END ----- */
+
+/* --------- NAV START -------- */
 
 .nav {
   background: rgba(0, 0, 0, 0.25);
@@ -67,3 +64,95 @@ body {
 .nav li:last-child {
   border-right: none;
 }
+
+/* ----------- NAV END ---------- */
+
+/* ---------- BANNER START -------*/
+
+.banner {
+  max-width: 920px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #87a984;
+  padding: 35px 0px;
+
+}
+
+.bannerImage {
+  float:left;
+  padding-left: 45px
+}
+
+.bannerText {
+  float: left;
+  padding-left: 45px;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.bannerText div {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 445px;
+}
+
+/* -------- BANNER END ------- */
+
+/* --------BODY START ------ */
+
+.siteBody {
+  max-width: 920px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.sideNav {
+  background-color: #96afac;
+  width: 200px;
+  float: left;
+  font-family: sans-serif;
+  height: 600px;
+
+
+}
+.sideNav li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 10px 0px;
+  font-size: 0.9rem;
+  margin-right: 45px;
+
+}
+
+/*---*/
+
+.bodyContent {
+   background-color: #dbd8c5;
+   float: left;
+   color: #57727d;
+   font-weight: bold;
+   font-size: 1.8rem;
+   width:620px;
+   height: 530px;
+   padding: 35px 50px;
+   font-family: sans-serif;
+}
+
+.bodyContent div {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.65);
+
+}
+
+
+
+
+/* ---------BODY END ------*/

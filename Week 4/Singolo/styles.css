@@ -65,7 +65,65 @@ body {
   width: 90%;
 }
 
- @media screen and (max-width: 550px) {
+/*----------*/
+
+.services {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #666d89;
+}
+
+.services p {
+  color: #767e9e;
+  font-weight:normal;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.servicebox {
+  float: left;
+  max-width: 320px;
+
+
+}
+
+.servicetext {
+  color: #767e9e;
+  font-weight:normal;
+  font-size: 1rem;
+  margin-left: 65px;
+}
+
+.pfoliobg{
+  color: #666d89;
+  background-color: #2d303a;
+
+}
+
+.pfolio {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  height: auto;
+}
+.pfolio > div {
+  font-size: 1.2rem;
+
+}
+
+
+ @media screen and (max-width: 600px) {
    .logo {
      float: none;
      margin-top: 0px;
@@ -78,6 +136,6 @@ body {
      text-align: center;
      margin-left: auto;
      margin-right: auto;
-     
+
    }
  }
